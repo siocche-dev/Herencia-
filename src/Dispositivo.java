@@ -3,7 +3,7 @@ public class Dispositivo {
     private String nombre;
     private boolean activo;
 
-    public Dispositivo(String nombre, String activo) {
+    public Dispositivo(String nombre, boolean activo) {
         this.nombre = nombre;
         this.activo = activo;
     }
