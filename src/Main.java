@@ -1,13 +1,12 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-}
+public class Main  {
 
-private void mostrarEstado() {
-}
+    public static void  main (String [] args) {
 
-private void ejecutarDiagnostico() {
+        Dispositivo dispositivo = new Dispositivo("Daniela","hola");
+
+        System.out.println("Mostrar estado" + dispositivo);
+        dispositivo.mostrarEstado();
+
+    }
 
 }
